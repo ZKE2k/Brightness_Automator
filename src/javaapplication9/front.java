@@ -1,4 +1,4 @@
-
+            
 package javaapplication9;
 
 import com.github.sarxos.webcam.Webcam;

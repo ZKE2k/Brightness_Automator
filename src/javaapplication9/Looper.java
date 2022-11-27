@@ -9,7 +9,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.concurrent.atomic.AtomicBoolean; 
 import java.time.*;
-
+        
 // initializes class and implements runnable format.
 public class Looper implements Runnable {
 
@@ -72,11 +72,7 @@ public class Looper implements Runnable {
         line = stderr.readLine();
         if (line != null)
         {
-            System.err.println("Standard Error:");
-            do
-            {
-                System.err.println(line);
-            } while ((line = stderr.readLine()) != null);
+            System.err.println("Error: External monitors are not compatible with program.");
 
         }
         stderr.close();
