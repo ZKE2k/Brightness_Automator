@@ -1,4 +1,4 @@
-package javaapplication9;
+package BrightnessAutomator;
 
 import java.io.File;
 import javax.imageio.ImageIO;

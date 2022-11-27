@@ -1,5 +1,5 @@
             
-package javaapplication9;
+package BrightnessAutomator;
 
 import com.github.sarxos.webcam.Webcam;
 import javax.swing.DefaultComboBoxModel;
